@@ -5,6 +5,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import java.util.List;
@@ -40,6 +42,9 @@ public class ForecastAdapter extends ArrayAdapter<ForecastDay> {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         View view;
+        TextView tvDay, tvDescription;
+        ImageView ivIcon;
+        LinearLayout layout;
 
         if (convertView == null) {
             view = mInflater.inflate(R.layout.single_item, parent, false);
@@ -48,9 +53,27 @@ public class ForecastAdapter extends ArrayAdapter<ForecastDay> {
         }
 
         ForecastDay item = getItem(position);
-        // On va récupérer le jour et le temps (nom de l'icone) pour les afficher dans la liste
-        ((TextView) view.findViewById(R.id.tv_single_item_label)).setText(String.valueOf(item.getPeriod()));
-        ((TextView) view.findViewById(R.id.tv_single_item_forecast)).setText(item.getIcon());
+
+        if (item != null) {
+            // Gestion des prévisions météo pour la nuit (fond sombre et icone différente)
+            boolean isNight = item.getPeriod() % 2 == 1;
+
+            // On va récupérer le jour et le temps (nom de l'icone) pour les afficher dans la liste
+            tvDay = (TextView) view.findViewById(R.id.tv_single_item_label);
+            tvDay.setText(String.valueOf(item.getTitle()).trim());
+
+            layout = (LinearLayout) view.findViewById(R.id.ll_single_item_container);
+            layout.setBackgroundColor(view.getResources().getColor(isNight ? R.color.light_grey : R.color.white));
+
+            tvDescription = (TextView) view.findViewById(R.id.tv_single_item_description);
+            tvDescription.setText(item.getFcttext_metric().trim());
+
+            // On va charger l'icône locale (drawable) correspondant au nom retourné dans l'XML (plus le préfixe "nt_" s'il s'agit de prévisions de nuit
+            int iconResId = view.getResources().getIdentifier((isNight ? "nt_" : "") + item.getIcon(), "drawable", view.getContext().getPackageName());
+            ivIcon = (ImageView) view.findViewById(R.id.iv_single_item_icon);
+            ivIcon.setImageResource(iconResId);
+        }
+
 
         return view;
     }
