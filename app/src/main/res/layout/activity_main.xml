@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="fr.alainmuller.weatherxmlparser.app.ui.activity.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/l_activity_main_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_activity_main_label"
+            android:text="@string/tv_activity_main_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/bt_activity_main_goParsing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:onClick="goParsing"
+            android:text="@string/bt_activity_main_goParsing_text" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/v_activity_main_separator_top"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/l_activity_main_header"
+        android:layout_margin="10dp"
+        android:background="@color/abc_search_url_text_selected" />
+
+    <TextView
+        android:id="@+id/tv_activity_main_infoXML"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/v_activity_main_separator_top" />
+
+    <View
+        android:id="@+id/v_activity_main_separator_middle"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/tv_activity_main_infoXML"
+        android:layout_margin="10dp"
+        android:background="@color/abc_search_url_text_selected" />
+
+    <ScrollView
+        android:layout_below="@id/v_activity_main_separator_middle"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/tv_activity_main_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </ScrollView>
+</RelativeLayout>

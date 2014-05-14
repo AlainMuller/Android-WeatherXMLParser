@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:id="@+id/tv_activity_parse_previsions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_activity_parse_previsions_text" />
+
+    <View
+        android:id="@+id/v_activity_parse_separator_middle"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="10dp"
+        android:background="@color/abc_search_url_text_selected" />
+
+    <fragment
+        android:id="@+id/fr_activity_parse_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="fr.alainmuller.weatherxmlparser.app.ui.fragment.ForecastFragment"
+        tools:layout="@layout/single_item" />
+
+</LinearLayout>

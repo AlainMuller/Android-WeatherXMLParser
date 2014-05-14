@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Weather Xml Parser</string>
+    <string name="hello_world">Hello World !</string>
+    <string name="tv_activity_main_label">Contenu du répertoire assets/xml : </string>
+    <string name="bt_activity_main_goParsing_text">Go!</string>
+    <string name="title_activity_parse">ParseActivity</string>
+    <string name="tv_activity_parse_previsions_text">Prévisions à 10 jours : </string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tv_fragment_forecast_empty_text">Aucune prévision</string>
+    <string name="tv_single_item_label_text">Jour</string>
+    <string name="tv_single_item_forecast_text">Temps</string>
+
+</resources>

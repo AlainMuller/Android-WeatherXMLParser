@@ -1,0 +1,214 @@
+<forecastdays>
+    <forecastday>
+        <period>0</period>
+        <icon>clear</icon>
+        <icon_url>http://icons-ak.wxug.com/i/c/k/clear.gif</icon_url>
+        <title>Wednesday</title>
+        <fcttext>
+            <![CDATA[Mainly sunny. High 83F. NW winds at less than 5 mph, increasing to 10 to 20 mph.]]></fcttext>
+        <fcttext_metric>
+            <![CDATA[A mainly sunny sky. High 28C. NW winds at less than 10 kph, increasing to 15 to 30 kph.]]></fcttext_metric>
+        <pop>0</pop>
+    </forecastday>
+    <forecastday>
+        <period>1</period>
+        <icon>clear</icon>
+        <icon_url>http://icons-ak.wxug.com/i/c/k/clear.gif</icon_url>
+        <title>Wednesday Night</title>
+        <fcttext>
+            <![CDATA[Mainly clear early, then a few clouds later on. Low near 60F. Winds WSW at 10 to 15 mph.]]></fcttext>
+        <fcttext_metric>
+            <![CDATA[Clear to partly cloudy. Low 15C. Winds WSW at 15 to 25 kph.]]></fcttext_metric>
+        <pop>0</pop>
+    </forecastday>
+    <forecastday>
+        <period>2</period>
+        <icon>partlycloudy</icon>
+        <icon_url>http://icons-ak.wxug.com/i/c/k/partlycloudy.gif</icon_url>
+        <title>Thursday</title>
+        <fcttext>
+            <![CDATA[Intervals of clouds and sunshine. High near 80F. Winds WSW at 10 to 20 mph.]]></fcttext>
+        <fcttext_metric>
+            <![CDATA[Intervals of clouds and sunshine. High 25C. Winds W at 15 to 30 kph.]]></fcttext_metric>
+        <pop>0</pop>
+    </forecastday>
+    <forecastday>
+        <period>3</period>
+        <icon>partlycloudy</icon>
+        <icon_url>http://icons-ak.wxug.com/i/c/k/partlycloudy.gif</icon_url>
+        <title>Thursday Night</title>
+        <fcttext>
+            <![CDATA[A few clouds from time to time. Low 58F. Winds WSW at 10 to 15 mph.]]></fcttext>
+        <fcttext_metric>
+            <![CDATA[A few clouds. Low around 13C. Winds W at 15 to 25 kph.]]></fcttext_metric>
+        <pop>0</pop>
+    </forecastday>
+    <forecastday>
+        <period>4</period>
+        <icon>partlycloudy</icon>
+        <icon_url>http://icons-ak.wxug.com/i/c/k/partlycloudy.gif</icon_url>
+        <title>Friday</title>
+        <fcttext>
+            <![CDATA[Sunshine and clouds mixed. High 73F. Winds WSW at 10 to 20 mph.]]></fcttext>
+        <fcttext_metric>
+            <![CDATA[Partly cloudy skies. High 23C. Winds WSW at 15 to 30 kph.]]></fcttext_metric>
+        <pop>0</pop>
+    </forecastday>
+    <forecastday>
+        <period>5</period>
+        <icon>partlycloudy</icon>
+        <icon_url>http://icons-ak.wxug.com/i/c/k/partlycloudy.gif</icon_url>
+        <title>Friday Night</title>
+        <fcttext><![CDATA[Partly cloudy. Low 54F. Winds W at 10 to 20 mph.]]></fcttext>
+        <fcttext_metric>
+            <![CDATA[A few clouds. Low 12C. Winds W at 15 to 30 kph.]]></fcttext_metric>
+        <pop>10</pop>
+    </forecastday>
+    <forecastday>
+        <period>6</period>
+        <icon>clear</icon>
+        <icon_url>http://icons-ak.wxug.com/i/c/k/clear.gif</icon_url>
+        <title>Saturday</title>
+        <fcttext>
+            <![CDATA[Sunshine along with some cloudy intervals. High near 70F. Winds W at 15 to 25 mph.]]></fcttext>
+        <fcttext_metric>
+            <![CDATA[Partly cloudy skies with gusty winds developing during the afternoon. High 20C. Winds W at 25 to 40 kph.]]></fcttext_metric>
+        <pop>0</pop>
+    </forecastday>
+    <forecastday>
+        <period>7</period>
+        <icon>clear</icon>
+        <icon_url>http://icons-ak.wxug.com/i/c/k/clear.gif</icon_url>
+        <title>Saturday Night</title>
+        <fcttext><![CDATA[Clear to partly cloudy. Low 53F. Winds W at 15 to 25 mph.]]></fcttext>
+        <fcttext_metric>
+            <![CDATA[A few clouds from time to time. Windy early. Low 11C. Winds W at 15 to 30 kph.]]></fcttext_metric>
+        <pop>10</pop>
+    </forecastday>
+    <forecastday>
+        <period>8</period>
+        <icon>partlycloudy</icon>
+        <icon_url>http://icons-ak.wxug.com/i/c/k/partlycloudy.gif</icon_url>
+        <title>Sunday</title>
+        <fcttext>
+            <![CDATA[Some clouds in the morning will give way to mainly sunny skies for the afternoon. High 67F. Winds W at 20 to 30 mph.]]></fcttext>
+        <fcttext_metric>
+            <![CDATA[Some clouds early. Mostly sunny along with windy conditions during the afternoon. High 19C. Winds W at 25 to 40 kph.]]></fcttext_metric>
+        <pop>10</pop>
+    </forecastday>
+    <forecastday>
+        <period>9</period>
+        <icon>clear</icon>
+        <icon_url>http://icons-ak.wxug.com/i/c/k/clear.gif</icon_url>
+        <title>Sunday Night</title>
+        <fcttext><![CDATA[Partly cloudy. Low 53F. Winds W at 15 to 25 mph.]]></fcttext>
+        <fcttext_metric>
+            <![CDATA[A few clouds from time to time. Gusty winds diminishing after midnight. Low 11C. Winds W at 25 to 40 kph.]]></fcttext_metric>
+        <pop>10</pop>
+    </forecastday>
+    <forecastday>
+        <period>10</period>
+        <icon>clear</icon>
+        <icon_url>http://icons-ak.wxug.com/i/c/k/clear.gif</icon_url>
+        <title>Monday</title>
+        <fcttext>
+            <![CDATA[A few passing clouds, otherwise generally sunny. High 66F. Winds W at 15 to 25 mph.]]></fcttext>
+        <fcttext_metric>
+            <![CDATA[Partly cloudy skies with gusty winds developing during the afternoon. High 18C. Winds W at 25 to 40 kph.]]></fcttext_metric>
+        <pop>10</pop>
+    </forecastday>
+    <forecastday>
+        <period>11</period>
+        <icon>clear</icon>
+        <icon_url>http://icons-ak.wxug.com/i/c/k/clear.gif</icon_url>
+        <title>Monday Night</title>
+        <fcttext><![CDATA[Clear. Low 52F. Winds WNW at 15 to 25 mph.]]></fcttext>
+        <fcttext_metric>
+            <![CDATA[Clear. Windy early. Low 11C. Winds WNW at 25 to 40 kph.]]></fcttext_metric>
+        <pop>10</pop>
+    </forecastday>
+    <forecastday>
+        <period>12</period>
+        <icon>clear</icon>
+        <icon_url>http://icons-ak.wxug.com/i/c/k/clear.gif</icon_url>
+        <title>Tuesday</title>
+        <fcttext><![CDATA[Mainly sunny. High 71F. Winds W at 15 to 25 mph.]]></fcttext>
+        <fcttext_metric>
+            <![CDATA[Sunny. Becoming windy late. High 21C. Winds WNW at 25 to 40 kph.]]></fcttext_metric>
+        <pop>10</pop>
+    </forecastday>
+    <forecastday>
+        <period>13</period>
+        <icon>clear</icon>
+        <icon_url>http://icons-ak.wxug.com/i/c/k/clear.gif</icon_url>
+        <title>Tuesday Night</title>
+        <fcttext><![CDATA[Clear to partly cloudy. Low 54F. Winds W at 15 to 25 mph.]]></fcttext>
+        <fcttext_metric>
+            <![CDATA[A few clouds from time to time. Windy early. Low 12C. Winds W at 15 to 30 kph.]]></fcttext_metric>
+        <pop>10</pop>
+    </forecastday>
+    <forecastday>
+        <period>14</period>
+        <icon>clear</icon>
+        <icon_url>http://icons-ak.wxug.com/i/c/k/clear.gif</icon_url>
+        <title>Wednesday</title>
+        <fcttext>
+            <![CDATA[Sun and a few passing clouds. High near 75F. Winds WNW at 10 to 20 mph.]]></fcttext>
+        <fcttext_metric>
+            <![CDATA[Mostly sunny skies. High 23C. Winds WNW at 15 to 30 kph.]]></fcttext_metric>
+        <pop>10</pop>
+    </forecastday>
+    <forecastday>
+        <period>15</period>
+        <icon>clear</icon>
+        <icon_url>http://icons-ak.wxug.com/i/c/k/clear.gif</icon_url>
+        <title>Wednesday Night</title>
+        <fcttext>
+            <![CDATA[Mainly clear early, then a few clouds later on. Low 56F. Winds SW at 10 to 20 mph.]]></fcttext>
+        <fcttext_metric>
+            <![CDATA[Mainly clear early, then a few clouds later on. Low around 13C. Winds SW at 15 to 30 kph.]]></fcttext_metric>
+        <pop>10</pop>
+    </forecastday>
+    <forecastday>
+        <period>16</period>
+        <icon>clear</icon>
+        <icon_url>http://icons-ak.wxug.com/i/c/k/clear.gif</icon_url>
+        <title>Thursday</title>
+        <fcttext>
+            <![CDATA[Sunny along with a few clouds. High 76F. Winds WSW at 10 to 20 mph.]]></fcttext>
+        <fcttext_metric>
+            <![CDATA[Partly cloudy. High around 24C. Winds WSW at 15 to 30 kph.]]></fcttext_metric>
+        <pop>10</pop>
+    </forecastday>
+    <forecastday>
+        <period>17</period>
+        <icon>partlycloudy</icon>
+        <icon_url>http://icons-ak.wxug.com/i/c/k/partlycloudy.gif</icon_url>
+        <title>Thursday Night</title>
+        <fcttext><![CDATA[A few clouds. Low 56F. Winds WSW at 10 to 20 mph.]]></fcttext>
+        <fcttext_metric>
+            <![CDATA[A few clouds from time to time. Low around 13C. Winds WSW at 15 to 30 kph.]]></fcttext_metric>
+        <pop>10</pop>
+    </forecastday>
+    <forecastday>
+        <period>18</period>
+        <icon>partlycloudy</icon>
+        <icon_url>http://icons-ak.wxug.com/i/c/k/partlycloudy.gif</icon_url>
+        <title>Friday</title>
+        <fcttext>
+            <![CDATA[Partly to mostly cloudy. High around 75F. Winds WSW at 10 to 20 mph.]]></fcttext>
+        <fcttext_metric>
+            <![CDATA[Mostly cloudy. High 23C. Winds WSW at 15 to 30 kph.]]></fcttext_metric>
+        <pop>10</pop>
+    </forecastday>
+    <forecastday>
+        <period>19</period>
+        <icon>partlycloudy</icon>
+        <icon_url>http://icons-ak.wxug.com/i/c/k/partlycloudy.gif</icon_url>
+        <title>Friday Night</title>
+        <fcttext><![CDATA[A few clouds. Low 57F. Winds W at 10 to 20 mph.]]></fcttext>
+        <fcttext_metric>
+            <![CDATA[Partly cloudy skies. Low around 13C. Winds W at 15 to 30 kph.]]></fcttext_metric>
+        <pop>10</pop>
+    </forecastday>
+</forecastdays>
